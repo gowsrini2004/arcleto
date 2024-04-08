@@ -2,7 +2,7 @@ import Classes from "../components/LandingAR.module.css";
 import ARphoto1 from "../assets/ARphoto1.png";
 import ARphoto2 from "../assets/ARphoto2.png";
 import ARphoto3 from "../assets/ARphoto3.png";
-
+import Sculptures from "../routes/Sculptures"
 function LandingAR() {
   return (
     <div className={Classes.pageBG}>
@@ -18,7 +18,9 @@ function LandingAR() {
             </div>
           </div>
           <div className={Classes.midSection}>
+            <a href = "Sculptures">
             <img src={ARphoto1} className={Classes.midImage} />
+            </a>
           </div>
           <div className={Classes.sideSection}>
             <div className={Classes.subTitle}>Chola bronze sculpture</div>
@@ -32,7 +34,9 @@ function LandingAR() {
         </div>
         <div className={Classes.row}>
           <div className={Classes.sideSection}>
-            <img src={ARphoto2} className={Classes.image} />
+            <a href = "Sculptures">
+              <img src={ARphoto2} className={Classes.image} />
+            </a>
           </div>
           <div className={Classes.midSection}>
             <div className={Classes.subTitle}>
@@ -51,7 +55,9 @@ function LandingAR() {
             </div>
           </div>
           <div className={Classes.sideSection}>
+          <a href = "Sculptures">
             <img src={ARphoto3} className={Classes.image} />
+            </a>
           </div>
         </div>
       </div>
