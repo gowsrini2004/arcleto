@@ -18,7 +18,7 @@ function LandingAR() {
             </div>
           </div>
           <div className={Classes.midSection}>
-            <a href = "Sculptures">
+            <a href = "sculptures">
             <img src={ARphoto1} className={Classes.midImage} />
             </a>
           </div>
@@ -34,7 +34,7 @@ function LandingAR() {
         </div>
         <div className={Classes.row}>
           <div className={Classes.sideSection}>
-            <a href = "Sculptures">
+            <a href = "sculptures">
               <img src={ARphoto2} className={Classes.image} />
             </a>
           </div>
@@ -55,7 +55,7 @@ function LandingAR() {
             </div>
           </div>
           <div className={Classes.sideSection}>
-          <a href = "Sculptures">
+          <a href = "sculptures">
             <img src={ARphoto3} className={Classes.image} />
             </a>
           </div>
