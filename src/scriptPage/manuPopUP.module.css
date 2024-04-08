@@ -1,0 +1,49 @@
+.pageContainer {
+  box-sizing: border-box;
+  width: 60vw;
+  height: 50vh;
+  margin: 10% 20%;
+  /* bottom: 10px; */
+  background-image: linear-gradient(
+    to bottom right,
+    #150638,
+    #1f0854,
+    #2f1763,
+    #38216d,
+    #502f9b
+  );
+  /* border-radius: 33px; */
+  /* display: flex;
+    justify-content: center; */
+  /* display: grid; */
+  /* grid-template-rows: 60px auto auto; */
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 100px; */
+  padding: 30px 75px;
+  opacity: 1;
+}
+di
+/* .pageBG {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 7, 46);
+    opacity: 0.5;
+  } */
+
+.popUpContainer {
+  opacity: 1;
+  padding: 0px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.popUpImg1Container {
+  margin: 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

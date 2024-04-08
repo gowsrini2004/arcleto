@@ -1,0 +1,130 @@
+.pageContainer {
+  width: 90vw;
+  height: 90vh;
+  margin: 0;
+  bottom: 10px;
+  background-image: linear-gradient(
+    to bottom right,
+    #150638,
+    #1f0854,
+    #2f1763,
+    #38216d,
+    #502f9b
+  );
+  border-radius: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  border-radius: 30px;
+}
+
+.textContainer {
+  width: 50%;
+  padding-left: 40px;
+}
+
+.desc {
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+
+.welcome {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Gill Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.archiveButton {
+  background-color: azure;
+  height: 60px;
+  width: 300px;
+  border-radius: 25px;
+  color: rgb(19, 7, 46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border: 0 50px;
+  font-weight: 600;
+}
+
+.welcomeStatue {
+  height: 100%;
+  width: 50%;
+  padding-left: 150px;
+}
+
+.pageBG {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnModal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background-image: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.closeModal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  display: none;
+}
+
+.arc {
+  background-color: #b3aaff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  width: 23%;
+  color: #1f0854;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.expIcon {
+  color: white;
+  /* margin-left: 10px; */
+  background-color: #150638;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 20px;
+}
